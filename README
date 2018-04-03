@@ -2,23 +2,4 @@ Coming Soon!
 
 
 requirements:
-python3, gtts, pyttsx
-
-
-If you have get this error "ImportError: No module named 'engine'" try lines below:
-
-
-In site_packages/pyttsx/__init__.py, modify "from engine import Engine" to
-
-from .engine import Engine
-Then, in site_packages/pyttsx/engine.py,
-
-Modify import driver to
-
-from . import driver
-Modify except Exception, e to
-
-except Exception as e
-And finally, in site_packages/pyttsx/driver.py modify except Exception, e to
-
-except Exception as e
+python3, gtts, pyttsx3
