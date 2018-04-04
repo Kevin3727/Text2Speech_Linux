@@ -1,5 +1,5 @@
-Coming Soon!
-
+Run ./t2s_sel.py in terminal.
+Select just the text you want.
 
 requirements:
-python3, gtts, pyttsx3
+python3, gtts, xsel
